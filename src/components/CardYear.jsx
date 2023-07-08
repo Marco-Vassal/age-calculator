@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import icon from './icon-arrow.svg'
 
 function CardYear() {
     const [day, setDay] = useState('');
@@ -134,7 +135,7 @@ function CardYear() {
                         </div>
                         <div className='w-full flex items-center relative md:static my-16 md:m-0'>
                             <div className='w-full h-[2px] bg-gray-200'></div>
-                            <button type='submit' className='absolute md:static left-[50%] translate-x-[-50%] md:translate-x-0 md:left-0 rounded-full bg-violet-600 p-6 hover:bg-black duration-300'><img src="/images/icon-arrow.svg" alt="" className='w-8' /></button>
+                            <button type='submit' className='absolute md:static left-[50%] translate-x-[-50%] md:translate-x-0 md:left-0 rounded-full bg-violet-600 p-6 hover:bg-black duration-300'><img src={icon} alt="" className='w-8' /></button>
 
                         </div>
                     </form>
