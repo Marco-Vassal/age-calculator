@@ -139,8 +139,8 @@ function CardYear() {
 
                         </div>
                     </form>
-                    <div>
-                        <div className='flex text-6xl md:text-8xl font-extrabold'>
+                    <div className='italic text-6xl md:text-8xl font-extrabold'>
+                        <div className='flex'>
                             {ageYears !== '' ? (
                                 <h1 className='text-violet-600'>{ageYears}</h1>
                             ) : (
@@ -149,7 +149,7 @@ function CardYear() {
                             )}
                             <h1 className='ml-4'>years</h1>
                         </div>
-                        <div className='flex text-6xl md:text-8xl font-extrabold'>
+                        <div className='flex'>
                             {ageMonths !== '' ? (
                                 <h1 className='text-violet-600'>{ageMonths}</h1>
                             ) : (
@@ -157,7 +157,7 @@ function CardYear() {
                             )}
                             <h1 className='ml-4'>months</h1>
                         </div>
-                        <div className='flex text-6xl md:text-8xl font-extrabold'>
+                        <div className='flex '>
                             {ageDays !== '' ? (
                                 <h1 className='text-violet-600'>{ageDays}</h1>
                             ) : (
